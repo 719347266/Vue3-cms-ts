@@ -2,7 +2,7 @@
   <div class="nav-menu">
     <div class="logo">
       <img class="img" src="~@/assets/img/logo.svg" alt="logo" />
-      <span v-if="!collapse" class="title">lyh+Vue3+TS</span>
+      <span v-if="!collapse" class="title">1111lyh+Vue3+TS</span>
     </div>
     <el-menu
       :default-active="defaultValue"
