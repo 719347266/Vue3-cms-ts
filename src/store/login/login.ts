@@ -36,16 +36,12 @@ const loginModule: Module<ILoginState, IRootState> = {
 
       // 动态添加路由
       const routes = mapMenusToRoutes(payload)
-      console.log(routes, 'routesroutesroutesroutes')
 
       routes.forEach((route) => {
         router.addRoute('main', route)
       })
 
-      console.log(router.getRoutes(), '所有路由信息')
-
       const permissions = mapMenusToPermissions(payload)
-      console.log(permissions, 'permissions')
 
       state.permissions = permissions
     }

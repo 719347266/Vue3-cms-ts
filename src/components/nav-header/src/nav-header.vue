@@ -32,7 +32,6 @@ export default defineComponent({
     const Breadcrumb = computed(() => {
       const userMenu = store.state.login.userMenus
       const route = useRoute()
-      console.log(route, 'route')
       return pathMapBreadcrumbs(userMenu, route.path)
     })
 

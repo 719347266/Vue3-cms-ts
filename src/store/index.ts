@@ -42,7 +42,6 @@ const store = createStore<IRootState>({
       const menuResult = await getPageListData('/menu/list', {})
 
       const { list: menuList } = menuResult.data
-      console.log(menuList, ' menuList')
 
       // 保存角色 部门数据 角色权限
       commit('changeEntireDepartment', departmentList)
