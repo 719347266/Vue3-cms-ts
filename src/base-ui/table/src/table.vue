@@ -68,10 +68,16 @@ export default defineComponent({
       type: Number,
       defalut: 0
     },
+    /**
+     * 表单配置
+     */
     propList: {
       type: Array,
       required: true
     },
+    /**
+     * 左上角标题
+     */
     title: {
       type: String,
       default: ''

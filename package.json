@@ -16,7 +16,7 @@
     "dayjs": "^1.10.6",
     "element-plus": "^1.0.2-beta.63",
     "normalize.css": "^8.0.1",
-    "vue": "^3.0.0",
+    "vue": "^3.2.4",
     "vue-router": "^4.0.10",
     "vuex": "^4.0.2"
   },
@@ -29,7 +29,7 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-typescript": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/compiler-sfc": "^3.2.20",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
     "babel-plugin-import": "^1.13.3",

@@ -99,6 +99,8 @@ export default defineComponent({
     watch(
       formData,
       (newValue) => {
+        console.log(newValue, 'newValue')
+
         emit('update:modelValue', newValue)
       },
       { deep: true }
